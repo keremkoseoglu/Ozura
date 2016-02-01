@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contracts>
+		
+	<contract>
+		<id>OO01</id>
+		<version>1</version>
+		<active>FALSE</active>
+		<client>Henkel</client>
+		<date>05.05.2015</date>
+		<description>Henkel ABC üretim</description>
+		<warm>TRUE</warm>
+		<cool>TRUE</cool>
+		<economy>FALSE</economy>
+		<regain>TRUE</regain>
+		<height>600</height>
+		<width>1200</width>
+		<length>800</length>
+		<space>INTERNAL</space>
+	</contract>
+	<contract>
+		<id>OO02</id>
+		<version>2</version>
+		<active>FALSE</active>
+		<client>Henkel</client>
+		<date>12.06.2015</date>
+		<description>Henkel ABC üretim</description>
+		<warm>TRUE</warm>
+		<cool>TRUE</cool>
+		<economy>FALSE</economy>
+		<regain>TRUE</regain>
+		<height>600</height>
+		<width>1300</width>
+		<length>800</length>
+		<space>INTERNAL</space>
+	</contract>
+	<contract>
+		<id>OO03</id>
+		<version>3</version>
+		<active>TRUE</active>
+		<client>Henkel</client>
+		<date>30.06.2015</date>
+		<description>Henkel ABC üretim</description>
+		<warm>TRUE</warm>
+		<cool>TRUE</cool>
+		<economy>FALSE</economy>
+		<regain>TRUE</regain>
+		<height>600</height>
+		<width>1300</width>
+		<length>850</length>
+		<space>INTERNAL</space>
+	</contract>
+	<contract>
+		<id>OO04</id>
+		<version>1</version>
+		<active>TRUE</active>
+		<client>İstinye Park</client>
+		<date>02.01.2012</date>
+		<description>Dış mekan sistem üretimi</description>
+		<warm>FALSE</warm>
+		<cool>TRUE</cool>
+		<economy>TRUE</economy>
+		<regain>FALSE</regain>
+		<height>1000</height>
+		<width>1002</width>
+		<length>999</length>
+		<space>EXTERNAL</space>
+	</contract>
+	<contract>
+		<id>OO05</id>
+		<version>1</version>
+		<active>TRUE</active>
+		<client>Kanyon</client>
+		<date>02.04.2012</date>
+		<description>İç mekan sistem üretimi</description>
+		<warm>TRUE</warm>
+		<cool>TRUE</cool>
+		<economy>TRUE</economy>
+		<regain>TRUE</regain>
+		<height>900</height>
+		<width>900</width>
+		<length>700</length>
+		<space>INTERNAL</space>
+	</contract>
+</contracts>

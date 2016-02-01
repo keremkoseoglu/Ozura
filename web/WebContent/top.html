@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Eneko</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		
+		<script language="JavaScript">
+      
+        function callAllData() {
+        	$('#main').load('all_data.jsp');
+        }
+        
+        function callHome() {
+        	$('#main').load('about.html');
+        }
+		
+		function callSearch() {
+			$('#main').load('search.jsp');
+		}
+		</script>
+	</head>
+	
+	<body class="container">
+		
+		<header class="header">
+			<img src="images/logo.png">
+			<h4>Özel üretim arama</h4>
+
+			<nav>
+				<a class="button button-primary" href="#" onclick="callHome()">Anasayfa</a>
+				<a class="button button-primary" href="#" onclick="callSearch()">Arama</a>
+				<a class="button button-primary" href="#" onclick="callAllData()">Tüm veriler</a>
+			</nav>
+		</header>
+		
+		<article>
+			<div id="main">
